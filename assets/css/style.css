@@ -25,7 +25,7 @@
 
   --bg-gradient-onyx: linear-gradient(
     to bottom right, 
-    hsl(100, 100%, 100%) 100%, 
+    hsl(0, 0%, 0%) 3%, 
     hsl(100, 100%, 100%) 97%
   );
   --bg-gradient-jet: linear-gradient(
@@ -155,7 +155,7 @@ input, textarea {
 
 html { font-family: var(--ff-poppins); }
 
-body { background: var(--smoky-black); }
+body { background: var(--white-1); }
 
 
 
@@ -167,7 +167,7 @@ body { background: var(--smoky-black); }
 
 .sidebar,
 article {
-  background: var(--eerie-black-2);
+  background: var(--white-1);
   border: 1px solid var(--jet);
   border-radius: 20px;
   padding: 15px;
@@ -201,7 +201,7 @@ article {
   content: "";
   position: absolute;
   inset: 1px;
-  background: var(--eerie-black-1);
+  background: var(--white-1);
   border-radius: inherit;
   z-index: -1;
 }
